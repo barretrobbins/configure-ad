@@ -31,7 +31,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/b1zTN0s.png" height="80%" width="80%" alt="DC-1 setup"/>
+<img src="https://i.imgur.com/bdwisOl.png" height="80%" width="80%" alt="DC-1 setup"/>
 </p>
 <p>
 1. The first thing we are going to do is set up the Domain Controller which is a Windows 2022 server. In Azure create a VM with the "Windows 2022 datacenter server" as the operating system and name it DC-1. Set the region to where ever is closest to you. Lastly, make sure your VM has at least 2 virtual CPUs, create a username and password, and press create.
