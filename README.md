@@ -93,7 +93,7 @@ After Active Directory is installed, go to the top right corner and click on the
 <img src="https://i.imgur.com/pCPbzzF.png" height="50%" width="50%"    alt="allow domain users"/>
 </p>
 <p>
-<img src="https://i.imgur.com/alInXDK.png" height="50%" width="50%"    alt="non-Admin employee login"/>
+<img src="https://i.imgur.com/FumIpuQ.png" height="50%" width="50%"    alt="non-Admin employee login"/>
 </p>
 <p>
 <img src="https://i.imgur.com/cUZHujV.png" height="50%" width="50%"    alt="final login"/>
