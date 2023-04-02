@@ -96,7 +96,9 @@ After Active Directory is installed, go to the top right corner and click on the
 <img src="https://i.imgur.com/FumIpuQ.png" height="50%" width="50%"    alt="non-Admin employee login"/>
 </p>
 <p>
-<img src="https://i.imgur.com/cUZHujV.png" height="50%" width="50%"    alt="final login"/>
+  
+<p>
+<img src="https://i.imgur.com/zQthe6G.png" height="50%" width="50%"    alt="final login"/>
 </p>
 <p>
 8. Lastly, we need to allow non-Admin users access to remote desktop. login to client-1 using the admin account. Next, go to System, then click "remote desktop", then allow "domain users". The Active Directory is now completely set up and users can log in remotely using client-1.
