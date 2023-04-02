@@ -66,7 +66,7 @@ After Active Directory is installed, go to the top right corner and click on the
 <br />
 
 <p>
-<img src="https://i.imgur.com/SprOeMD.png" height="50%" width="50%" alt="new employee creation"/>
+<img src="https://i.imgur.com/LnJBSWa.png" height="50%" width="50%" alt="new employee creation"/>
 </p>
 <p>
 <img src="https://i.imgur.com/8ifySae.png" height="50%" width="50%" alt="new employee"/>
