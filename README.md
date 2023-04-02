@@ -69,12 +69,6 @@ After Active Directory is installed, go to the top right corner and click on the
 <img src="https://i.imgur.com/LnJBSWa.png" height="50%" width="50%" alt="new employee creation"/>
 </p>
 <p>
-<img src="https://i.imgur.com/8ifySae.png" height="50%" width="50%" alt="new employee"/>
-</p>
-<p>
-<img src="https://i.imgur.com/znk9eqx.png" height="50%" width="50%" alt="login in with Admin employee"/>
-</p>
-<p>
 5. Now that Active Directory is set up, we are going to create a few users. Go to "Active Directory Users and Computers" and create an Organizational Unit called "_EMPLOYEES". Inside the _Employees folder create an employee with your name and username as "your name.admin". Example: "edward.admin". Next, add that employee to the "Domain Admins" security group. Now you should be able to log back into DC-1 with that admin account.
 </p>
 <br />
