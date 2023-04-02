@@ -77,15 +77,12 @@ After Active Directory is installed, go to the top right corner and click on the
 <img src="https://i.imgur.com/Ilp9boK.png" height="70%" width="70%" alt="client-1 creation"/>
 </p>
 <p>
-<img src="https://i.imgur.com/eawBFZy.png" height="70%" width="70%" alt="client-1's Dns settings"/>
-</p>
-<p>
 6. Now let's create some non-Admin employees using the admin account. Once done, create a new VM in Azure with windows 10 as the operating system. Make sure the VM is in the same resource group and Vnet as DC-1. Name the VM client-1. Once the VM is created, in Azure, set Client-1's DNS settings to DC-1's Private IP address. Go to client-1's network interface settings, click "DNS Severs", click custom, then enter DC-1's private IP.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/p3eSt8t.png" height="50%" width="50%"    alt="join client-1 to domain"/>
+<img src="https://i.imgur.com/gVcLvBq.png" height="50%" width="50%"    alt="join client-1 to domain"/>
 </p>
 <p>
 7. Now we need to join client-1 to the domain we created (campbell.com). This will allow our created users/employees to log in using client-1. Login to client-1, go to system, then click "Rename This PC(Advanced)", next click change, and enter the domain(campbell.com) you created in the domain field. You will need to enter the admin credentials we created on DC-1, for Example:(edward.admin@campbell.com). If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
