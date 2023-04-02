@@ -74,7 +74,7 @@ After Active Directory is installed, go to the top right corner and click on the
 <br />
 
 <p>
-<img src="https://i.imgur.com/qlEPVS4.png" height="70%" width="70%" alt="client-1 creation"/>
+<img src="https://i.imgur.com/Ilp9boK.png" height="70%" width="70%" alt="client-1 creation"/>
 </p>
 <p>
 <img src="https://i.imgur.com/eawBFZy.png" height="70%" width="70%" alt="client-1's Dns settings"/>
