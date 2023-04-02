@@ -58,10 +58,10 @@ Next step is to install the Active Directory on DC-1.  To install the Active Dir
 <br />
 
 <p>
-<img src="https://i.imgur.com/j0DeUot.png" height="80%" width="80%" alt="Creating a domain"/>
+<img src="https://i.imgur.com/SZFfluD.png" height="80%" width="80%" alt="Creating a domain"/>
 </p>
 <p>
-4. Once Active Directory is installed, look in the top right corner for a yellow exclamation mark notification. Click it, then press "Promote this server to a domain controller". Next, click add a new forest, then create a domain. My domain is "campbell.com" which is my last name. After DC-1 restarts, log back in using your domain name and login user name. Example: "labuser@campbell.com" or "campbell.com\labuser".
+After Active Directory is installed, go to the top right corner and click on the yellow exclamation mark sign.  Click "Promote this server to a domain controller", click "add a new forest", and then create a "Root Domain Name".  After DC-1 restarts, log back in using your domain name and login user name. Example: "labuser@campbell.com" or "campbell.com\labuser".
 </p>
 <br />
 
