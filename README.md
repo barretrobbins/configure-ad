@@ -34,15 +34,18 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img src="https://i.imgur.com/bdwisOl.png" height="80%" width="80%" alt="DC-1 setup"/>
 </p>
 <p>
-1. The first thing we are going to do is set up the Domain Controller which is a Windows 2022 server. In Azure create a VM with the "Windows 2022 datacenter server" as the operating system and name it DC-1. Set the region to where ever is closest to you. Lastly, make sure your VM has at least 2 virtual CPUs, create a username and password, and press create.
+First, create a Virtual Machine for the Domain Controler.  The region for the Domain Controler or DC-1 is based on selecting the region closest to your area.  Second, select Windows 22 Datacenter Server for the image.  Third, select Standard_E2s_v3-2vcpus, 16 Gib memory, and then scroll to the bottom, click on Disks->Networking-> Review + create-> and finally Create Virtual Machine DC-1.  
+
+Next, create the second Virtual Machine for Client-1.  The region should be the same as the area selected for the Domain Controler (DC-1).  For this VM, the image is Windows 10 Pro, version 21H2-64 Gen2.  The size* will be the same as the first virtual machine (DC-1).  Scroll to the bottom, click on Disks
+->Networking-> Review + create, and then Create Virtual Machine Client-1.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/LMu10zM.png" height="80%" width="80%" alt="DC-1 with a static private IP address"/>
+<img src="https://i.imgur.com/2XVxIgi.png" height="80%" width="80%" alt="DC-1 with a static private IP address"/>
 </p>
 <p>
-2. Next, we need to make DC-1's NIC Private IP address static rather than dynamic. Click the "Networking" tab in Dc-1, click the network interface number, click IP configurations, click the private IP address, then switch from dynamic to static.
+The following step is to change the NIC Private IP address for DC-1 to static instead of dynamic. Go to DC-1, click the Networking tab, click the Network Interface number, click the IP Configurations tab, click the Private IP address, and then change the assignment from dynamic to static.
 </p>
 <br />
 
