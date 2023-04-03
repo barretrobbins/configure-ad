@@ -61,7 +61,7 @@ Next step is to install the Active Directory on DC-1.  To install the Active Dir
 <img src="https://i.imgur.com/SZFfluD.png" height="80%" width="80%" alt="Creating a domain"/>
 </p>
 <p>
-After Active Directory is installed, go to the top right corner and click on the yellow exclamation mark sign.  Click "Promote this server to a domain controller", click "add a new forest", and then create a "Root Domain Name".  After DC-1 restarts, log back in using your domain name and login user name. Example: "mydomain.com\labuser".
+After installing Active Directory, go to the top right corner and click on the yellow exclamation mark sign.  Click "Promote this server to a domain controller", click "add a new forest", and then create a "Root Domain Name".  After DC-1 restarts, log back in using your domain name and login user name. Example: "mydomain.com\labuser".
 </p>
 <br />
 
@@ -69,7 +69,7 @@ After Active Directory is installed, go to the top right corner and click on the
 <img src="https://i.imgur.com/LnJBSWa.png" height="50%" width="50%" alt="new employee creation"/>
 </p>
 <p>
-5. Now that Active Directory is set up, we are going to create a few users. Go to "Active Directory Users and Computers" and create an Organizational Unit called "_EMPLOYEES". Inside the _Employees folder create an employee with your name and username as "your name.admin". Example: "edward.admin". Next, add that employee to the "Domain Admins" security group. Now you should be able to log back into DC-1 with that admin account.
+Once the Active Directory installation has been completed, the next step is to create a some users. In the Search bar next to the Windows icon, type and go to "Active Directory Users and Computers", and create an Organizational Unit named "_EMPLOYEES". Inside the new folder, create an employee with your name and username.  Add the employee to the "Domain Admins" security group; log into DC-1 with that admin account.
 </p>
 <br />
 
@@ -77,7 +77,7 @@ After Active Directory is installed, go to the top right corner and click on the
 <img src="https://i.imgur.com/Ilp9boK.png" height="70%" width="70%" alt="client-1 creation"/>
 </p>
 <p>
-6. Now let's create some non-Admin employees using the admin account. Once done, create a new VM in Azure with windows 10 as the operating system. Make sure the VM is in the same resource group and Vnet as DC-1. Name the VM client-1. Once the VM is created, in Azure, set Client-1's DNS settings to DC-1's Private IP address. Go to client-1's network interface settings, click "DNS Severs", click custom, then enter DC-1's private IP.
+6. Next, create some non-Admin employees using the admin account. Once done, create a new VM in Azure with windows 10 as the operating system. Make sure the VM is in the same resource group and Vnet as DC-1. Name the VM client-1. Once the VM is created, in Azure, set Client-1's DNS settings to DC-1's Private IP address. Go to client-1's network interface settings, click "DNS Severs", click custom, then enter DC-1's private IP.
 </p>
 <br />
 
