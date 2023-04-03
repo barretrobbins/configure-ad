@@ -77,7 +77,7 @@ Once the Active Directory installation has been completed, the next step is to c
 <img src="https://i.imgur.com/Ilp9boK.png" height="70%" width="70%" alt="client-1 creation"/>
 </p>
 <p>
-6. Next, create some non-Admin employees using the admin account. Once done, create a new VM in Azure with windows 10 as the operating system. Make sure the VM is in the same resource group and Vnet as DC-1. Name the VM client-1. Once the VM is created, in Azure, set Client-1's DNS settings to DC-1's Private IP address. Go to client-1's network interface settings, click "DNS Severs", click custom, then enter DC-1's private IP.
+Go to client-1's network interface settings, click "DNS Severs", click custom, then enter DC-1's private IP.
 </p>
 <br />
 
