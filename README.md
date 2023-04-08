@@ -50,7 +50,7 @@ The following step is to change the NIC Private IP address for DC-1 to static in
 <br />
 
 <p>
-<img src="https://i.imgur.com/cUAIEaz.png" height="80%" width="80%" alt="Active Directory"/>
+<img src="https://i.imgur.com/YFOxsr6.png" width="80%" alt="Active Directory"/>
 </p>
 <p>
 Next step is to install the Active Directory on DC-1.  To install the Active Directory, click on "add roles and features" in Server Manager and then click "next" on the bottom.  Click on Server Selection on the left side, which will automatically take you to Server Roles; then select Active Direcotry Domain Services.  Click "add features", then click next, next, and next again.  Install "Active Directory Domain Services".
