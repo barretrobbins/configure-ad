@@ -88,7 +88,7 @@ Go to network interface settings for Client-1, click "DNS Severs", click custom,
 <img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
 </p>
 <p>
-Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to client-1, righ-click on Windows icon and go to System, then click "Rename This PC (Advanced)".  Next click change, and enter the "Domain: barret.com". Enter the admin credential that was created on DC-1.  If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
+Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to Client-1, righ-click on Windows icon and go to System, then click "Rename This PC (Advanced)".  Next click change, and enter the "Domain: barret.com". Enter the admin credential that was created on DC-1.  If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
 </p>
 <br />
 
@@ -105,6 +105,6 @@ Next step is to join client-1 to the domain that was created. This will allow th
 <img src="https://i.imgur.com/zQthe6G.png" height="50%" width="50%"    alt="final login"/>
 </p>
 <p>
-Lastly, we need to allow non-Admin users access to remote desktop. login to client-1 using the admin account. Next, go to System, then click "remote desktop", then allow "domain users". The Active Directory is now completely set up and users can log in remotely using client-1.
+Lastly, we need to allow non-Admin users access to remote desktop. login to Client-1 using the admin account. Next, go to System, then click "remote desktop", then allow "domain users". The Active Directory is now completely set up and users can log in remotely using Client-1.
 </p>
 <br />
