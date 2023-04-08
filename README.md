@@ -101,9 +101,12 @@ Go back to Remote Desktop and login to Client-1.  Go to Search and open Command 
 A Windows Security screen will pop up and will prompt you to enter a username and password.  Enter the domain admin account information and click OK.  You should receive a message "welcome to the mydomain.com domain".
 
 <img src="https://i.imgur.com/pCPbzzF.png" height="50%" width="50%" alt="allow domain users"/>
-</p>
-<p>
+ 
+Right-click Start, go to System, and click on Remote Desktop.  Go to Users account and click on the link "select users that can remotely access this PC".  Next, click add and type domain users in the space, and click check names.  Once you click check names, the domain users will change in the space and will be capitalized and underlined indicating the group was populated.  This is a special group named Domain Users, which contains all users and are automatically in the security group; click OK.
+  
 <img src="https://i.imgur.com/FumIpuQ.png" height="50%" width="50%" alt="non-Admin employee login"/>
+
+Above highlights who is allowed to login remotely; click OK. 
 </p>
 <p>
 
