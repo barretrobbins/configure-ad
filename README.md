@@ -78,8 +78,6 @@ Once the Active Directory installation has been completed, the next step is to c
 
 3 - Join Client VM to the Active Directory Domain.
 <p>
-<img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
-
 <img src="https://i.imgur.com/wGlVrmI.png" height="50%" width="50%"    alt="join client-1 to domain"/>
 </p>
 <p>
@@ -96,6 +94,10 @@ To change the DNS Servers for Client-1 to the Domain Controls IP address, go to 
 <br />
 
 <p>
+<img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
+
+Go back to Remote Desktop and login to Client-1.  Go to Search and open Command Prompt, type in "ipconfig /all" to check the DNS Servers to ensure the changes have been completed and the DC-1 IP address was updated.  Right-click Start, click System, click on Rename this PC (advanced), click on change, and enter the Domain name; for example: mydomain.com and click OK.
+
 <img src="https://i.imgur.com/pCPbzzF.png" height="50%" width="50%" alt="allow domain users"/>
 </p>
 <p>
