@@ -85,15 +85,15 @@ Go to client-1's network interface settings, click "DNS Severs", click custom, t
 <img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
 </p>
 <p>
-7. Now we need to join client-1 to the domain we created (campbell.com). This will allow our created users/employees to log in using client-1. Login to client-1, go to system, then click "Rename This PC(Advanced)", next click change, and enter the domain(campbell.com) you created in the domain field. You will need to enter the admin credentials we created on DC-1, for Example:(edward.admin@campbell.com). If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
+7. Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to client-1, righ-click on Windows icon and go to System, then click "Rename This PC (Advanced)".  Next click change, and enter the "Domain: barret.com". Enter the admin credential that was created on DC-1. If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/pCPbzzF.png" height="50%" width="50%"    alt="allow domain users"/>
+<img src="https://i.imgur.com/pCPbzzF.png" height="50%" width="50%" alt="allow domain users"/>
 </p>
 <p>
-<img src="https://i.imgur.com/FumIpuQ.png" height="50%" width="50%"    alt="non-Admin employee login"/>
+<img src="https://i.imgur.com/FumIpuQ.png" height="50%" width="50%" alt="non-Admin employee login"/>
 </p>
 <p>
   
