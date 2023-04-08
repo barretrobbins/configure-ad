@@ -76,20 +76,22 @@ Once the Active Directory installation has been completed, the next step is to c
 </p>
 <br />
 
+3 - Join Client VM to the Active Directory Domain.
+<p>
+<img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
+
+<img src="https://i.imgur.com/wGlVrmI.png" height="50%" width="50%"    alt="join client-1 to domain"/>
+</p>
+<p>
+Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to Client-1 in Remote Desktop and right-click the Windows icon (Start), and click System. Then click "Rename This PC (Advanced)".  Next click change, and enter the Domaine name. Enter the admin credential that was created on DC-1.  Once you click OK, an error message will appear.  The system reached out to the DNS Server to get the Domain Controler, but there is no Domain Control attached, so the DNS Servers needs to be changed to the Domain Controlers IP address.  
+</p>
+<br />
+
 <p>
 <img src="https://i.imgur.com/Ilp9boK.png" height="70%" width="70%" alt="client-1 creation"/>
 </p>
 <p>
-Go to network interface settings for Client-1, click "DNS Severs", click custom, then enter DC-1's private IP.
-</p>
-<br />
-
-3 - Join Client VM to the Active Directory Domain.
-<p>
-<img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
-</p>
-<p>
-Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to Client-1, righ-click on Windows icon and go to System, then click "Rename This PC (Advanced)".  Next click change, and enter the "Domain: barret.com". Enter the admin credential that was created on DC-1.  If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
+To change the DNS Servers for Client-1 to the Domain Controls IP address, go to portal.azure.com.  Click on Virtual Machines, select DC-1, and click on Networking on the right. Copy the NIC Private IP address and go to Client-1.  Once in Client-1, click on Networking, click on Network Interface, click "DNS Severs", click custom, then enter DC-1's private IP.
 </p>
 <br />
 
