@@ -25,11 +25,12 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 - 1 - Setup Azure Domain Controller (windows server) and Azure Client (Windows 10) VMs.
 - 2 - Install Active Directory in the Domain Controller.
-- 3 - Join Client VM to the Active Directory Domain.
+- 3 - Join Client-1 to the Active Directory Domain.
 - 4 - Setup remote desktop login for Admin and non-Admin users/ create user accounts.
 
 <h2>Deployment and Configuration Steps</h2>
 
+1 - Setup Azure Domain Controller (windows server) and Azure Client (Windows 10) VMs.
 <p>
 <img src="https://i.imgur.com/bdwisOl.png" height="80%" width="80%" alt="DC-1 setup"/>
 </p>
@@ -49,6 +50,7 @@ The following step is to change the NIC Private IP address for DC-1 to static in
 </p>
 <br />
 
+2 - Install Active Directory in the Domain Controller.
 <p>
 <img src="https://i.imgur.com/YFOxsr6.png" width="80%" alt="Active Directory"/>
 </p>
@@ -81,11 +83,12 @@ Go to client-1's network interface settings, click "DNS Severs", click custom, t
 </p>
 <br />
 
+3 - Join Client VM to the Active Directory Domain.
 <p>
 <img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
 </p>
 <p>
-7. Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to client-1, righ-click on Windows icon and go to System, then click "Rename This PC (Advanced)".  Next click change, and enter the "Domain: barret.com". Enter the admin credential that was created on DC-1.  If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
+Next step is to join client-1 to the domain that was created. This will allow the created users or employees to log in, while using Client-1. Login to client-1, righ-click on Windows icon and go to System, then click "Rename This PC (Advanced)".  Next click change, and enter the "Domain: barret.com". Enter the admin credential that was created on DC-1.  If done correctly, you should get a welcome to this domain pop-up message and a prompt to restart the VM.
 </p>
 <br />
 
@@ -96,11 +99,12 @@ Go to client-1's network interface settings, click "DNS Severs", click custom, t
 <img src="https://i.imgur.com/FumIpuQ.png" height="50%" width="50%" alt="non-Admin employee login"/>
 </p>
 <p>
-  
+
+4 - Setup remote desktop login for Admin and non-Admin users/ create user accounts.
 <p>
 <img src="https://i.imgur.com/zQthe6G.png" height="50%" width="50%"    alt="final login"/>
 </p>
 <p>
-8. Lastly, we need to allow non-Admin users access to remote desktop. login to client-1 using the admin account. Next, go to System, then click "remote desktop", then allow "domain users". The Active Directory is now completely set up and users can log in remotely using client-1.
+Lastly, we need to allow non-Admin users access to remote desktop. login to client-1 using the admin account. Next, go to System, then click "remote desktop", then allow "domain users". The Active Directory is now completely set up and users can log in remotely using client-1.
 </p>
 <br />
