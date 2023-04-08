@@ -33,7 +33,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 1 - Setup Azure Domain Controller (windows server) and Azure Client (Windows 10) VMs.
 <p>
-<img src="https://i.imgur.com/bdwisOl.png" height="80%" width="80%" alt="DC-1 setup"/>
+<img src="https://i.imgur.com/b1zTN0s.png" height="80%" width="80%" alt="DC-1 setup"/>
 </p>
 <p>
 First, create a Virtual Machine for the Domain Controler.  The region for the Domain Controler or DC-1 is based on selecting the region closest to your area.  Second, select Windows 22 Datacenter Server for the image.  Third, select Standard_E2s_v3-2vcpus, 16 Gib memory, and then scroll to the bottom, click on Disks->Networking-> Review + create-> and finally Create Virtual Machine DC-1.  
