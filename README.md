@@ -79,7 +79,7 @@ Once the Active Directory installation has been completed, the next step is to c
 <img src="https://i.imgur.com/Ilp9boK.png" height="70%" width="70%" alt="client-1 creation"/>
 </p>
 <p>
-Go to client-1's network interface settings, click "DNS Severs", click custom, then enter DC-1's private IP.
+Go to network interface settings for Client-1, click "DNS Severs", click custom, then enter DC-1's private IP.
 </p>
 <br />
 
