@@ -97,6 +97,8 @@ To change the DNS Servers for Client-1 to the Domain Controls IP address, go to 
 <img src="https://i.imgur.com/28xtY50.png" height="50%" width="50%"    alt="join client-1 to domain"/>
 
 Go back to Remote Desktop and login to Client-1.  Go to Search and open Command Prompt, type in "ipconfig /all" to check the DNS Servers to ensure the changes have been completed and the DC-1 IP address was updated.  Right-click Start, click System, click on Rename this PC (advanced), click on change, and enter the Domain name; for example: mydomain.com and click OK.
+  
+A Windows Security screen will pop up and will prompt you to enter a username and password.  Enter the domain admin account information and click OK.  You should receive a message "welcome to the mydomain.com domain".
 
 <img src="https://i.imgur.com/pCPbzzF.png" height="50%" width="50%" alt="allow domain users"/>
 </p>
