@@ -23,10 +23,10 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- 1 - Setup Azure Domain Controller (windows server) and Azure Client (Windows 10) VMs.
-- 2 - Install Active Directory in the Domain Controller.
-- 3 - Join Client-1 to the Active Directory Domain.
-- 4 - Setup remote desktop login for Admin and non-Admin users/ create user accounts.
+- Step 1 - Setup Azure Domain Controller (windows server) and Azure Client (Windows 10) VMs.
+- Step 2 - Install Active Directory in the Domain Controller.
+- Step 3 - Join Client-1 to the Active Directory Domain.
+- Step 4 - Setup remote desktop login for Admin and non-Admin users/ create user accounts.
 
 <h2>Deployment and Configuration Steps</h2>
 
