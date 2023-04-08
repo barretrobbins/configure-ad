@@ -115,8 +115,8 @@ Above highlights who is allowed to login remotely; click OK.
 <img src="https://i.imgur.com/zQthe6G.png" height="50%" width="50%"    alt="powershell script"/>
 </p>
 <p>
-Login to Client-1, right-click Start, and open Powershell ISE as an administrator by right-clicking and select "Run as administrator".  Create a new file, copy and paste the content of the script into the file.  Next, run the script and observe the accounts being created.  The script creates a certain amount of accounts and assigns the accounts with a password.  This information is in the script.  The new accounts will be filed in the _EMPLOYEES folder in Active Directory Users and Computers.
+Finally, login to Client-1, right-click Start, and open Powershell ISE as an administrator by right-clicking and select "Run as administrator".  Create a new file, copy and paste the content of the script into the file.  Next, run the script and observe the accounts being created.  The script creates a certain amount of accounts and assigns the accounts with a password.  This information is in the script.  The new accounts will be filed in the _EMPLOYEES folder in Active Directory Users and Computers.
   
-Finally, go to Active Directory Users and Computers, open the _EMPLOYEES folder, and select a user.  need to allow non-Admin users access to remote desktop. login to Client-1 using the admin account. Next, go to System, then click "remote desktop", then allow "domain users". The Active Directory is now completely set up and users can log in remotely using Client-1.  
+Afterwards, go to Active Directory Users and Computers, open the _EMPLOYEES folder, and select a user.  Logoff from Client-1 and re-login using the new user.  Go to Search, open Command Prompt, type "whoami" and "hostname" to confirm the user.   
 </p>
 <br />
